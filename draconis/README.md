@@ -3,6 +3,10 @@
 **Bottled fire from the Flying Dragon.**
 A scroll-driven landing page for a men's eau de parfum, staged inside a live WebGL nebula.
 
+### [→ View the live page](https://afrinhaque19-beep.github.io/brand-pages/draconis/)
+
+Best on a desktop browser with a mouse, or on a phone held upright.
+
 <p align="center">
   <img src="b113.webp" alt="Draconis No. 113 bottle" height="260">
   &nbsp;&nbsp;&nbsp;
@@ -82,6 +86,10 @@ draconis/
 ```
 
 ## Run it
+
+Live: https://afrinhaque19-beep.github.io/brand-pages/draconis/
+
+Locally:
 
 ```bash
 python3 -m http.server 8000

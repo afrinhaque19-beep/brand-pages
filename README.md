@@ -2,15 +2,17 @@
 
 A collection of scroll-driven brand and landing pages. Each one treats the product as the hero of a short film you direct with the scroll wheel: a living WebGL backdrop, a product that travels between scenes, and copy that arrives, holds and leaves on cue.
 
+**Live:** [Draconis · No. 113](https://afrinhaque19-beep.github.io/brand-pages/draconis/)
+
 Every page is a self-contained static site in its own folder. There is no build step and no framework; open a folder, serve it, and it runs.
 
 ---
 
 ## The pages
 
-| Page | Brand | What it is | Folder |
-| --- | --- | --- | --- |
-| **Draconis** | Draconis · No. 113 and No. 114 | A men's eau de parfum launched against the Flying Dragon Nebula (Sh 2-113). The bottle drifts through a live nebula, the fog parts under your cursor, and the sky shifts colour with each chapter, from hydrogen red to cobalt and violet. | [`/draconis`](./draconis) |
+| Page | Brand | What it is | Live | Folder |
+| --- | --- | --- | --- | --- |
+| **Draconis** | Draconis · No. 113 and No. 114 | A men's eau de parfum launched against the Flying Dragon Nebula (Sh 2-113). The bottle drifts through a live nebula, the fog parts under your cursor, and the sky shifts colour with each chapter, from hydrogen red to cobalt and violet. | [**View live →**](https://afrinhaque19-beep.github.io/brand-pages/draconis/) | [`/draconis`](./draconis) |
 
 <p align="center">
   <img src="draconis/b113.webp" alt="Draconis No. 113 bottle" height="220">
@@ -52,7 +54,7 @@ Any static server works (`npx serve`, VS Code Live Server, and so on).
 
 ## Publishing
 
-Each folder can be deployed as-is to any static host: GitHub Pages, Netlify, Vercel, Cloudflare Pages or an S3 bucket. With GitHub Pages enabled on this repository, a page is served at `https://<user>.github.io/brand-pages/<folder>/`.
+Each folder can be deployed as-is to any static host: GitHub Pages, Netlify, Vercel, Cloudflare Pages or an S3 bucket. This repository is published with GitHub Pages, so each folder is served at `https://afrinhaque19-beep.github.io/brand-pages/<folder>/`.
 
 ## Adding a new brand page
 
