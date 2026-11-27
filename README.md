@@ -28,18 +28,13 @@ Every page is a self-contained static site in its own folder. There is no build 
 
 ---
 
-## How a brand experience is made
+## What the pages have in common
 
-Four ingredients, used together on every page:
-
-| | |
-| --- | --- |
-| **Motion** | Nothing simply appears. Every scene arrives, holds while you read, and hands over to the next, with one moment of emphasis as it lands. |
-| **Scroll** | The scroll is the camera. One timeline moves the product, the sky and the copy at the reader's own pace, so the page plays like a single continuous shot. |
-| **Visuals** | Real photography, alive. Backdrops are rendered through WebGL shaders: drifting light, colour that shifts with each chapter, and fog that answers the cursor. |
-| **Story** | Every brand gets a world and a reason to exist: a name with an origin, a cast of products, and a few short chapters that make you want to own the thing. |
-
-Underneath, every page is also **built for every screen**, with its own phone layout rather than a squeezed desktop, and **considerate by default**: it respects `prefers-reduced-motion`, works with touch, and falls back gracefully without WebGL.
+- **A living backdrop.** The background is a real photograph rendered through a WebGL shader: drifting gas, twinkling stars, colour grading per chapter, and fog that reacts to the pointer and the scroll.
+- **Choreographed scroll.** One GSAP ScrollTrigger timeline moves the camera, the sky and the product between hand-set poses. Each scene arrives, holds while you read, then hands over to the next.
+- **Product as the main character.** The product image is a single fixed element that travels through every scene, so the page feels like one continuous shot rather than a stack of sections.
+- **Built for every screen.** Desktop gets side-by-side compositions. Phones and portrait tablets get a layout of their own, with copy pinned low and the product sized to fit the space left above it.
+- **Considerate by default.** Respects `prefers-reduced-motion`, works with touch, keeps type readable at every width, and falls back to a still image when WebGL isn't available.
 
 ## Tech
 
