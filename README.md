@@ -1,6 +1,6 @@
 # Brand Pages
 
-A collection of scroll-driven brand and landing pages. Each one treats the product as the hero of a short film you direct with the scroll wheel: a living WebGL backdrop, a product that travels between scenes, and copy that arrives, holds and leaves on cue.
+A collection of contemporary, sleekly technical brand and landing pages. Each one treats the product as the hero of a short film you direct with the scroll wheel: a living WebGL backdrop, a product that travels between scenes, and copy that arrives, holds and leaves on cue.
 
 **Live:** [Draconis · No. 113](https://afrinhaque19-beep.github.io/brand-pages/draconis/)
 
